@@ -1,0 +1,33 @@
+html {
+  background-color: grey;
+}
+body {
+  margin: 0 auto;
+  height: 100vh;
+  padding: 0px;
+  width: 960px;
+  background-color: white;
+}
+nav {
+  height: 8vh;
+  margin: 0px;
+  width: 100%;
+  background-color: yellow;
+}
+nav ul {
+  display: flex;
+  margin: 0px;
+}
+nav ul li{
+  display: inline;
+}
+
+.content {
+  display: flex;
+}
+.news {
+  width: 50%;
+}
+.events {
+  width: 50%;
+}
